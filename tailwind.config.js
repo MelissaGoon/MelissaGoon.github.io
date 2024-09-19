@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -19,8 +20,8 @@ export default {
         }
       },
       fontFamily: {
-        worksans: ["Work Sans", "sans-serif"],
-        poppins: ['Poppins', "sans-serif"]
+        jacquard12: ['"Jacquard 12"', 'system-ui'],
+        silkscreen: ["Silkscreen", 'system-ui']
       },
       boxShadow: {
         card: '0px 1px 2px 0px rgba(0, 0, 0, 0.05)'
