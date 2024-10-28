@@ -1,26 +1,50 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const renderContent = {
-    1: (
-        <h1>1</h1>
-    ),
-    2: (
-        <h1>2</h1>
-    ),
-    3: (
-        <h1>3</h1>
-    ),
-    4: (
-        <h1>4</h1>
-    )
-}
 
 const InfoBox = ({text, link, btnText}) => (
     <div className='info-box'>
-        {text}
+        <p className='font-medium sm:text-xl text-center'>{text}</p>
+        <img src='src\assets\images\star.svg' className='absolute bottom-0 left-0 h-16 w-16 hover:animate-spin-slow ' />
+        <Link to={link} className='pixel-btn'>
+        {btnText}
+        </Link>
 
     </div>
 )
+
+const renderContent = {
+    1: (
+        <InfoBox 
+        text ="Hi I'm Melissa!"
+        link="/about"
+        btnText="About"
+        />
+    ),
+    2: (
+        <InfoBox 
+        text ="Give me a job!"
+        link="/resume" //TO DO: ADD RESUME PAGE
+        btnText="Resume"
+        />
+    ),
+    3: (
+        <InfoBox 
+        text ="Stuff I made :D"
+        link="/projects"
+        btnText="Projects!"
+        />
+    ),
+    4: (
+        <InfoBox 
+        text ="Say hello to me!"
+        link="/contact"
+        btnText="Contact"
+        />
+    )
+}
+
+
 const HomeInfo = ({currentStage}) => {
     return renderContent[currentStage] || null
 }

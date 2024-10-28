@@ -26,17 +26,17 @@ body:has(.card[data-color="green"]:hover) {
         @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
     }
 
-    /* .head-text {
-        @apply sm:text-5xl text-3xl font-semibold sm:leading-snug font-poppins;
-    } */
-
-    /* .subhead-text {
-        @apply font-semibold sm:text-3xl text-xl relative font-poppins;
-    } */
-
-    .blue-gradient_text {
-        @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+    .head-text {
+        @apply sm:text-5xl text-3xl font-jacquard12 sm:leading-snug;
     }
+
+    .subhead-text {
+        @apply font-silkscreen sm:text-3xl text-xl relative;
+    }
+
+    .pink-gradient-text {
+        @apply bg-[linear-gradient(to_right,#ff00c3,#d100ff,#6600ff,#d100ff,#ff00c3)] animate-gradient bg-[length:200%_auto] bg-clip-text text-transparent;
+    } 
 
     .title-text {
         @apply text-black font-jacquard12 text-5xl;
@@ -67,12 +67,12 @@ body:has(.card[data-color="green"]:hover) {
     }
 
     .info-box {
-        @apply mx-5 relative flex text-white flex-col gap-3 max-w-2xl neo-brutalism-blue pt-4 pb-12 px-8;
+        @apply mx-5 relative flex text-black flex-col gap-3 max-w-2xl pt-4 pb-12 px-8;
     }
 
-    /* .neo-btn {
-        @apply py-3 px-6 rounded-lg text-blue-500 text-center font-semibold sm:w-1/2 w-[90%] -bottom-5 absolute mx-auto right-0 left-0 flex justify-center items-center gap-3;
-    } */
+    .pixel-btn {
+        @apply py-3 px-6 rounded-lg bg-black text-3xl text-white text-center font-jacquard12 sm:w-1/2 w-[90%] -bottom-5 absolute mx-auto right-0 left-0 flex justify-center items-center gap-3 hover:bg-pink-500;
+    }
 
     .cta {
         @apply w-full flex items-center md:flex-row flex-col sm:mt-16 mt-8 gap-7;

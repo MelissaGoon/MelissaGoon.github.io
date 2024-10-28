@@ -26,6 +26,13 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import blender from './blender.svg'
+import c from './c.svg'
+import cplusplus from './cplusplus.svg'
+import flask from './flask.svg'
+import python from './python.svg'
+import threejs from './threejs.svg'
+
 
 export {
     css,
@@ -55,5 +62,11 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    blender,
+    c,
+    cplusplus,
+    flask,
+    python,
+    threejs
 }
