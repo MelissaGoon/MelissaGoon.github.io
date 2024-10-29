@@ -9,7 +9,7 @@ const Projects = () => {
               <section className='absolute left-0 right-0 z-10 p-16 w-full min-h-svh sm:top-24 top-32 bg-black'>
               <h1 className='head-text text-white'>
               <img src='src\assets\images\star.svg' className='absolute top-0 right-0 hidden lg:block h-40'/>
-                    My <span className='pink-gradient-text'>Projects ✷</span> 
+                    My Projects <span className='pink-gradient-text'>✷✶</span> 
             </h1>
 
             <div className='flex flex-col gap-4'>

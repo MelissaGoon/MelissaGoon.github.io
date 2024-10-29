@@ -4,6 +4,7 @@ import { skills } from '../constants'
 const About = () => {
     return (
         <div className='w-full h-dvh relative bg-portfolio bg-cover bg-center'>
+             <img src='src\assets\images\cornerStar.svg' className='absolute hidden lg:block'/>
              <section className='absolute left-0 right-0 z-10 p-16 w-full sm:top-24 top-32 bg-black'>
            
                 <h1 className='head-text text-white'>
