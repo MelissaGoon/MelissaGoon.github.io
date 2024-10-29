@@ -4,6 +4,7 @@ import Loader from "../components/Loader.jsx"
 import Island from '../models/Island'
 import Sky from '../models/sky.jsx'
 import HomeInfo from '../components/HomeInfo.jsx'
+import { arrows, homecorner } from '../assets/images/index.js'
 const Home = () => {
     const [isRotating, setIsRotating] = useState(false)
     const [currentStage, setCurrentStage] = useState(1)
@@ -33,7 +34,7 @@ const Home = () => {
 
     return (
         <section className='w-full h-screen relative'>
-              <img src='src\assets\images\homeCorner.svg' className='absolute z-10 flex hidden lg:block'/>
+              <img src={homecorner} className='absolute z-10 flex hidden lg:block'/>
 
             <div className="absolute top-32 lg:top-14 left-0 right-0 z-10
             flex items-center justify-center">
@@ -47,7 +48,7 @@ const Home = () => {
                <div className="absolute bottom-10 left-0 right-0 flex-col flex items-center justify-center">
                     <h1 className=' text-xl'> Click and Drag to rotate!</h1> 
                     <h2 className=' text-l'> Or use arrow keys to turn </h2> 
-                    <img src='src\assets\images\arrows.png' className='h-14'/>
+                    <img src={arrows} className='h-14'/>
                     </div>
                 </div>}
             </div>

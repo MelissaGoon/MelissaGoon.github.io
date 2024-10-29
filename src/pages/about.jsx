@@ -1,10 +1,11 @@
 import React from 'react'
 import { skills } from '../constants'
+import { cornerstar, irlimage } from '../assets/images'
 
 const About = () => {
     return (
         <div className='w-full h-dvh relative bg-portfolio bg-cover bg-center'>
-             <img src='src\assets\images\cornerStar.svg' className='absolute hidden lg:block'/>
+             <img src={cornerstar} className='absolute hidden lg:block'/>
              <section className='absolute left-0 right-0 z-10 p-16 w-full sm:top-24 top-32 bg-black'>
            
                 <h1 className='head-text text-white'>
@@ -17,7 +18,7 @@ const About = () => {
                      In my spare time, I love painting, sculpting, sewing, drawing, and 3D modeling. 
                         I also love Dungeons and Dragons for the creativity and storytelling. 
                         Overall, I enjoy blending my interests in art and tech and am always looking for new ways to learn and create.</p>
-                    <img src='src\assets\images\irl_image.jpg' className='w-3/4 max-w-sm rounded-lg object-contain sm:block hidden'/>
+                    <img src={irlimage} className='w-3/4 max-w-sm rounded-lg object-contain sm:block hidden'/>
                 </div>
 
                 <div className='py-10 flex flex-col text-white'> 

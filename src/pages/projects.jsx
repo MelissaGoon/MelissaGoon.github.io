@@ -1,14 +1,15 @@
 import React from 'react'
 import { projects } from '../constants'
+import { cornerstar,star } from '../assets/images'
 
 const Projects = () => {
 
     return (
         <div className='w-full h-screen relative bg-portfolio bg-cover bg-center'>
-        <img src='src\assets\images\cornerStar.svg' className='absolute hidden lg:block'/>
+        <img src={cornerstar} className='absolute hidden lg:block'/>
               <section className='absolute left-0 right-0 z-10 p-16 w-full min-h-svh sm:top-24 top-32 bg-black'>
               <h1 className='head-text text-white'>
-              <img src='src\assets\images\star.svg' className='absolute top-0 right-0 hidden lg:block h-40'/>
+              <img src={star} className='absolute top-0 right-0 hidden lg:block h-40'/>
                     My Projects <span className='pink-gradient-text'>✷✶</span> 
             </h1>
 

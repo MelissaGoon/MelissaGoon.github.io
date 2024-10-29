@@ -1,19 +1,25 @@
-import hero from './hero.jpg'
 import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
-import logo from './logo.svg'
 import adventureawaits from './AdventureAwaits.png'
 import redcommend from './Redcommend.png'
+import arrows from './arrows.png'
+import cornerstar from './cornerStar.svg'
+import homecorner from './homeCorner.svg'
+import irlimage from './irl_image.jpg'
+import star from './star.svg'
 
 export {
-    hero,
     meta,
     shopify,
     starbucks,
     tesla,
-    logo,
     adventureawaits,
-    redcommend
+    redcommend,
+    arrows,
+    homecorner,
+    cornerstar,
+    irlimage,
+    star
 }
