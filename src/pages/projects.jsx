@@ -6,10 +6,10 @@ const Projects = () => {
 
     return (
         <div className='w-full h-screen relative bg-portfolio bg-cover bg-center'>
-        <img src={cornerstar} className='absolute hidden lg:block'/>
+        <img src={cornerstar} className='absolute hidden lg:block' alt='✷'/>
               <section className='absolute left-0 right-0 z-10 p-16 w-full min-h-svh sm:top-24 top-32 bg-black'>
               <h1 className='head-text text-white'>
-              <img src={star} className='absolute top-0 right-0 hidden lg:block h-40'/>
+              <img src={star} className='absolute top-0 right-0 hidden lg:block h-40' alt='✷'/>
                     My Projects <span className='pink-gradient-text'>✷✶</span> 
             </h1>
 
@@ -18,7 +18,7 @@ const Projects = () => {
                         <div key={project.title} className="max-w-2xl mt-6 bg-portfolio rounded-3xl mx-auto overflow-hidden md:max-w-5xl">
                         <div className="md:flex">
                         <div className="md:shrink-0">
-                            <img className="h-48 w-full object-cover md:h-full md:w-48" src={project.imageURL} alt="Portfolio Image"/>
+                            <img className="h-48 w-full object-cover md:h-full md:w-48" src={project.imageURL} alt={project.title} />
                         </div>
                         <div className="p-8">
                             <p className='subhead-text'> {project.title}</p>

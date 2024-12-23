@@ -34,10 +34,10 @@ const Home = () => {
 
     return (
         <section className='w-full h-screen relative'>
-              <img src={homecorner} className='absolute z-10 flex hidden lg:block'/>
+              <img src={homecorner} className='absolute z-10 hidden lg:block' alt='✷'/>
 
-            <div className="absolute top-32 lg:top-14 left-0 right-0 z-10
-            flex items-center justify-center">
+            <div className="absolute top-12 sm:top-14 left-0 right-0 z-10
+            flex items-center justify-center"> 
                 {currentStage && <HomeInfo currentStage ={currentStage} />}
             </div>
 
@@ -45,10 +45,10 @@ const Home = () => {
             flex items-center justify-center w-full h-[calc(100vh-8rem)] pointer-events-none" onClick={() => setShowPrompt(!showPromt)}>
                 {showPromt && 
                 <div> 
-               <div className="absolute bottom-10 left-0 right-0 flex-col flex items-center justify-center">
-                    <h1 className=' text-xl'> Click and Drag to rotate!</h1> 
-                    <h2 className=' text-l'> Or use arrow keys to turn </h2> 
-                    <img src={arrows} className='h-14'/>
+               <div className="absolute bottom-16 sm:bottom-10 left-0 right-0 flex-col flex items-center justify-center">
+                    <h1 className=' text-l sm:text-xl'> Click and Drag to rotate!</h1> 
+                    <h2 className=' hidden sm:block sm:text-l'> Or use arrow keys to turn </h2> 
+                    <img src={arrows} className=' hidden sm:block sm:h-14' alt='<- ->'/>
                     </div>
                 </div>}
             </div>
