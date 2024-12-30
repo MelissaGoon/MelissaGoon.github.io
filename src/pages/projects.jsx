@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className='w-full h-screen relative bg-portfolio bg-cover bg-center'>
         <img src={cornerstar} className='absolute hidden lg:block' alt='✷'/>
-              <section className='absolute left-0 right-0 z-10 p-16 w-full min-h-svh sm:top-24 top-32 bg-black'>
+              <section className='absolute left-0 right-0 z-10 p-7 sm:p-16 w-full min-h-svh sm:top-24 top-28 bg-black'>
               <h1 className='head-text text-white'>
               <img src={star} className='absolute top-0 right-0 hidden lg:block h-40' alt='✷'/>
                     My Projects <span className='pink-gradient-text'>✷✶</span> 

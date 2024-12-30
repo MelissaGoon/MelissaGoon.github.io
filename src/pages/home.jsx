@@ -36,7 +36,7 @@ const Home = () => {
         <section className='w-full h-screen relative'>
               <img src={homecorner} className='absolute z-10 hidden lg:block' alt='✷'/>
 
-            <div className="absolute top-12 sm:top-14 left-0 right-0 z-10
+            <div className="absolute top-20 sm:top-14 left-0 right-0 z-10
             flex items-center justify-center"> 
                 {currentStage && <HomeInfo currentStage ={currentStage} />}
             </div>
