@@ -16,7 +16,7 @@ import {
     threejs,
 } from "../assets/icons";
 
-import { adventureawaits, redcommend } from "../assets/images";
+import { adventureawaits, redcommend, portfolio} from "../assets/images";
 
 export const skills = [
     {
@@ -115,6 +115,13 @@ export const projects = [
         imageURL:adventureawaits,
         text: "My team and I developed a full-stack web application that let users receive written directions to random interesting nearby locations, integrating the Google Maps API. I used Figma, HTML, and CSS with the Bootstrap framework for the front-end development.",
         link:"https://github.com/nitahieb/NWHACKS2023",
+        linktext:"Link to Github repo"
+    },
+    {
+        title: "This Website!",
+        imageURL:portfolio,
+        text: "Initally designed in Figma, I created this portfolio website using React, Three.JS and Tailwind CSS.",
+        link:"https://github.com/MelissaGoon/MelissaGoon.github.io",
         linktext:"Link to Github repo"
     },
 ]

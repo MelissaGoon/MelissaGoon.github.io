@@ -1,3 +1,3 @@
-import resume from './Software_Engineer_Resume_MELISSA.pdf'
+import resume from './Melissa_Goon_Resume.pdf'
 
 export {resume}

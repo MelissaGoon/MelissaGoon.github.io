@@ -10,6 +10,7 @@ import homecorner from './homeCorner.svg'
 import irlimage from './irl_image.jpg'
 import star from './star.svg'
 import logo from './Logo.svg'
+import portfolio from './3DPortfolioImg.png'
 
 export {
     meta,
@@ -23,5 +24,6 @@ export {
     cornerstar,
     irlimage,
     star,
-    logo
+    logo,
+    portfolio
 }
