@@ -31,7 +31,7 @@ body:has(.card[data-color="green"]:hover) {
     }
 
     .subhead-text {
-        @apply font-silkscreen sm:text-3xl text-xl relative;
+        @apply font-silkscreen sm:text-2xl text-lg relative;
     }
 
     .pink-gradient-text {

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
+import { cornerstar } from '../assets/images'
 
 const Contact = () => {
     return (
         <div className='w-full min-h-screen relative bg-portfolio bg-cover bg-center'>
+            <img src={cornerstar} className='absolute hidden lg:block' alt='✷'/>
             <section className='absolute left-0 right-0 z-10 p-6 sm:p-16 w-full sm:top-24 top-28 bg-black text-white gap-8 sm:gap-16 flex flex-col items-start'>
     
                 <h1 className='subhead-text pink-gradient-text text-lg sm:text-2xl'>
