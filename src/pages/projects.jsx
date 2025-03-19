@@ -1,39 +1,78 @@
 import React from 'react'
 import { projects } from '../constants'
-import { cornerstar,star } from '../assets/images'
+import { cornerstar, star } from '../assets/images'
 
 const Projects = () => {
 
     return (
         <div className='w-full h-screen relative bg-portfolio bg-cover bg-center'>
-        <img src={cornerstar} className='corner-star' alt='✷'/>
-              <section className='absolute left-0 right-0 z-10 p-7 sm:p-16 w-full min-h-svh sm:top-24 top-28 bg-black'>
-              <h1 className='head-text text-white'>
-              <img src={star} className='absolute top-0 right-0 hidden lg:block h-40' alt='✷'/>
-                    My Projects <span className='pink-gradient-text'>✷✶</span> 
-            </h1>
+            <img src={cornerstar} className='corner-star' alt='✷' />
+            <section className='absolute left-0 right-0 z-10 p-7 sm:p-16 w-full min-h-svh sm:top-24 top-28 bg-black'>
+                <h1 className='head-text text-white'>
+                    <img src={star} className='absolute top-0 right-0 hidden lg:block h-40' alt='✷' />
+                    My Projects <span className='pink-gradient-text'>✷✶</span>
+                </h1>
 
-            <div className='flex flex-col gap-4'>
-                {projects.map((project)=>(
+                <div className='flex flex-col gap-4'>
+                    {projects.map((project) => (
                         <div key={project.title} className="max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto overflow-hidden md:max-w-5xl">
-                        <div className="md:flex">
-                        <div className="md:shrink-0">
-                            <img className="h-32 w-full object-cover md:h-full md:w-48" src={project.imageURL} alt={project.title} />
+                            <div className="md:flex">
+                                <div className="md:shrink-0">
+                                    <img className="h-32 w-full object-cover md:h-full md:w-48" src={project.imageURL} alt={project.title} />
+                                </div>
+                                <div className="p-4 sm:p-8">
+                                    <p className='subhead-text my-4'> {project.title}</p>
+                                    <p> {project.text}</p>
+                                    <a href={project.link} target="_blank"
+                                        className='link-text'> {project.linktext} </a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="p-4 sm:p-8">
-                            <p className='subhead-text my-4'> {project.title}</p>
-                            <p> {project.text}</p>
-                            <a href={project.link} target="_blank" 
-                            className='hover:text-pink-500 font-silkscreen text-base sm:text-lg text-white'> {project.linktext} </a>
-                        </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
 
-       
-            
-              </section>
+                <h1 className='head-text text-white mt-7'>
+                    Figma Prototypes <span className='pink-gradient-text'>✸✦</span>
+                </h1>
+
+                <div className="w-full flex flex-col justify-center">
+                <div className='max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto md:max-w-5xl p-10'>
+                        <p className='subhead-text mb-6'> Jambo Grill Redesign</p>
+
+                        <iframe
+                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                            src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487&embed-host=share"
+                            allowFullScreen />
+                        <iframe
+                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                            src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&scaling=contain&content-scaling=fixed&page-id=214%3A826&embed-host=share"
+                            allowFullScreen />
+                        
+                        <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&t=igsQkfc2vjCABH7v-1&scaling=contain&content-scaling=fixed&page-id=214%3A826" target="_blank"
+                            className='link-text md:hidden'> Link to process slides </a>
+
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                        <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&t=g4abRLuF1rPZoUo1-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487" target="_blank"
+                            className='link-text md:hidden'> Link to prototype </a>
+                    </div>
+
+                    <div className='max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto md:max-w-5xl p-10'>
+                        <p className='subhead-text mb-6'> GoodReads Redesign</p>
+
+                        <iframe
+                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                            src="https://embed.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1&embed-host=share"
+                            allowFullScreen />
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                        <a href="https://www.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&t=S1CHQJDroEdG7UOO-1&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1" target="_blank"
+                            className='link-text md:hidden'> Link to prototype </a>
+                    </div>
+
+                </div>
+
+
+
+            </section>
         </div>
     )
 }
