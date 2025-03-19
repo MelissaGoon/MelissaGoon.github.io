@@ -5,7 +5,7 @@ import { cornerstar, irlimage } from '../assets/images'
 const About = () => {
     return (
         <div className='w-full h-dvh relative bg-portfolio bg-cover bg-center'>
-             <img src={cornerstar} className='absolute hidden lg:block' alt='✷'/>
+             <img src={cornerstar} className='corner-star' alt='✷'/>
              <section className='absolute left-0 right-0 z-10 p-10 md:p-16 w-full sm:top-24 top-28 bg-black'>
            
                 <h1 className='head-text text-white'>
@@ -26,7 +26,7 @@ const About = () => {
                     <h3 className='subhead-text'> My skills <span className='pink-gradient-text'>✷</span></h3>
                     <div className='mt-16 flex flex-wrap gap-12'>
                         {skills.map((skill) => (
-                            <div key={skill.name} className='flex w-12 h-12 sm:w-20 sm:h-20 bg-white items-center justify-center rounded-3xl hover:bg-pink-500 transition-all duration-150 ease-in-out'>
+                            <div key={skill.name} className='flex w-12 h-12 sm:w-20 sm:h-20 bg-white items-center justify-center rounded-3xl transition-all duration-150 ease-in-out'>
                               
                                     <img src={skill.imageUrl} alt={skill.name} className='w-3/4 h-3/4 object-contain'/>
                                

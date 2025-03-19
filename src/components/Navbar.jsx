@@ -19,6 +19,9 @@ const Navbar = () => {
                 <NavLink to="/projects" className={({ isActive }) => isActive? 'text-white font-silkscreen' : 'text-black font-silkscreen'}>
                     Projects
                 </NavLink>
+                <NavLink to="/other" className={({ isActive }) => isActive? 'text-white font-silkscreen tracking-tighter' : ' tracking-tighter text-black font-silkscreen'}>
+                    Other Work
+                </NavLink>
                 <NavLink to="/resume" className={({ isActive }) => isActive? 'text-white font-silkscreen' : 'text-black font-silkscreen'}>
                     Resume
                 </NavLink>
@@ -58,12 +61,16 @@ const Navbar = () => {
                 <NavLink to="/projects" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Projects
                 </NavLink>
+                <NavLink to="/other" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
+                Other Work
+                </NavLink>
                 <NavLink to="/resume" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Resume
                 </NavLink>
                 <NavLink to="/contact" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Contact
                 </NavLink>
+                
             </nav>
             </>
   )}

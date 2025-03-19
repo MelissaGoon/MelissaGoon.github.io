@@ -107,8 +107,8 @@ export const projects = [
         title: "Redcommend- Cmd-f 2023 Hackathon ",
         imageURL:redcommend,
         text: "(Sponsor Prize Winner, Diversity in CS Mentorship winner) I collaborated with a team to create a Reddit thread summarization tool to allow users to easily view the general consensus regarding a piece of media or product without having to scroll through all the comments. We used the Cohere language model API and Reddit API. I created the frontend using Flask, HTML, and CSS.",
-        link:"https://github.com/sedaschle/cmd_f",
-        linktext:"Link to Github repo"
+        link:"https://devpost.com/software/redcommend",
+        linktext:"Link to Devpost"
     },
     {
         title: "Adventure Awaits- NWHacks 2023 Hackathon",

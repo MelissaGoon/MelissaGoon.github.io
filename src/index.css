@@ -55,7 +55,11 @@ body:has(.card[data-color="green"]:hover) {
     }
 
     .header {
-        @apply flex justify-between items-center sm:px-16 px-4 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-50 right-0 left-0;
+        @apply flex justify-between items-center px-4 py-4 max-w-5xl mx-auto pr-0 absolute top-0 bg-transparent z-50 right-0 left-0;
+    }
+
+    .corner-star {
+        @apply absolute hidden xl:block;
     }
 
     .footer {
