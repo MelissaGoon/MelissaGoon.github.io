@@ -1,6 +1,6 @@
 import React from 'react'
 import { projects } from '../constants'
-import { cornerstar, star } from '../assets/images'
+import { cornerstar, star, jambogrill, goodreads } from '../assets/images'
 
 const Projects = () => {
 
@@ -15,7 +15,7 @@ const Projects = () => {
 
                 <div className='flex flex-col gap-4'>
                     {projects.map((project) => (
-                        <div key={project.title} className="max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto overflow-hidden md:max-w-5xl">
+                        <div key={project.title} className="portfolio-card">
                             <div className="md:flex">
                                 <div className="md:shrink-0">
                                     <img className="h-32 w-full object-cover md:h-full md:w-48" src={project.imageURL} alt={project.title} />
@@ -36,36 +36,42 @@ const Projects = () => {
                 </h1>
 
                 <div className="w-full flex flex-col justify-center">
-                <div className='max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto md:max-w-5xl p-10'>
-                        <p className='subhead-text mb-6'> Jambo Grill Redesign</p>
+                    <div className='portfolio-card'>
+                        <img className="h-32 w-full object-cover md:hidden" src={jambogrill} alt='Jambo Grill Image' />
+                        <div className='p-10'><p className='subhead-text mb-6'> Jambo Grill Redesign</p>
 
-                        <iframe
-                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
-                            src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487&embed-host=share"
-                            allowFullScreen />
-                        <iframe
-                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
-                            src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&scaling=contain&content-scaling=fixed&page-id=214%3A826&embed-host=share"
-                            allowFullScreen />
-                        
-                        <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&t=igsQkfc2vjCABH7v-1&scaling=contain&content-scaling=fixed&page-id=214%3A826" target="_blank"
-                            className='link-text md:hidden'> Link to process slides </a>
+                            <iframe
+                                className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                                src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487&embed-host=share"
+                                allowFullScreen />
+                            <iframe
+                                className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                                src="https://embed.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&scaling=contain&content-scaling=fixed&page-id=214%3A826&embed-host=share"
+                                allowFullScreen />
 
-                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
-                        <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&t=g4abRLuF1rPZoUo1-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487" target="_blank"
-                            className='link-text md:hidden'> Link to prototype </a>
+                            <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&t=igsQkfc2vjCABH7v-1&scaling=contain&content-scaling=fixed&page-id=214%3A826" target="_blank"
+                                className='link-text md:hidden'> Link to process slides </a>
+
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                            <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&t=g4abRLuF1rPZoUo1-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487" target="_blank"
+                                className='link-text md:hidden'> Link to prototype </a> </div>
+
                     </div>
 
-                    <div className='max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto md:max-w-5xl p-10'>
-                        <p className='subhead-text mb-6'> GoodReads Redesign</p>
+                    <div className='portfolio-card'>
+                    <img className="h-32 w-full object-cover md:hidden" src={goodreads} alt='GoodReads Image' />
+                        <div className='p-10'>
+                            <p className='subhead-text mb-6'> GoodReads Redesign</p>
 
-                        <iframe
-                            className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
-                            src="https://embed.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1&embed-host=share"
-                            allowFullScreen />
-                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
-                        <a href="https://www.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&t=S1CHQJDroEdG7UOO-1&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1" target="_blank"
-                            className='link-text md:hidden'> Link to prototype </a>
+                            <iframe
+                                className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
+                                src="https://embed.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1&embed-host=share"
+                                allowFullScreen />
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                            <a href="https://www.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&t=S1CHQJDroEdG7UOO-1&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1" target="_blank"
+                                className='link-text md:hidden'> Link to prototype </a>
+                        </div>
+
                     </div>
 
                 </div>

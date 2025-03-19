@@ -62,6 +62,10 @@ body:has(.card[data-color="green"]:hover) {
         @apply absolute hidden xl:block;
     }
 
+    .portfolio-card {
+        @apply max-w-2xl mt-6 bg-portfolio rounded-xl mx-auto overflow-hidden md:max-w-5xl
+    }
+
     .link-text {
         @apply hover:pink-gradient-text font-silkscreen text-base sm:text-lg text-pink-500
     }

@@ -1,7 +1,4 @@
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+
 import adventureawaits from './AdventureAwaits.png'
 import redcommend from './Redcommend.png'
 import arrows from './arrows.png'
@@ -11,12 +8,11 @@ import irlimage from './irl_image.jpg'
 import star from './star.svg'
 import logo from './Logo.svg'
 import portfolio from './3DPortfolioImg.png'
+import jambogrill from './jambo_grill.png'
+import goodreads from './goodreads.png'
+import togrow from './to_grow.png'
 
 export {
-    meta,
-    shopify,
-    starbucks,
-    tesla,
     adventureawaits,
     redcommend,
     arrows,
@@ -25,5 +21,8 @@ export {
     irlimage,
     star,
     logo,
-    portfolio
+    portfolio,
+    jambogrill,
+    goodreads,
+    togrow
 }

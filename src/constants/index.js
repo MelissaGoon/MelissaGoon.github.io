@@ -16,7 +16,7 @@ import {
     threejs,
 } from "../assets/icons";
 
-import { adventureawaits, redcommend, portfolio} from "../assets/images";
+import { adventureawaits, redcommend, portfolio, togrow} from "../assets/images";
 
 export const skills = [
     {
@@ -102,6 +102,13 @@ export const projects = [
         text: " I worked with a mentor from the Blender organization to implement several community-sourced improvements to a large, open-source code base using C, C++ and Git.",
         link:"https://summerofcode.withgoogle.com/archive/2023/projects/GiNuS5Qn",
         linktext:"Link to project page"
+    },
+    {
+        title: "To Grow- Cmd-f 2025 Hackathon ",
+        imageURL:togrow,
+        text: "ToGrow is a Chrome extension that breaks tasks into actionable steps using the Gemini API. I built the backend with Python and Flask and worked on the frontend with HTML, CSS, and JavaScript. This was my first full-stack integration and Chrome extension, challenging me in new ways. I also proposed the project idea and designed all plant assets in Krita.",
+        link:"https://devpost.com/software/togrow",
+        linktext:"Link to Devpost"
     },
     {
         title: "Redcommend- Cmd-f 2023 Hackathon ",
