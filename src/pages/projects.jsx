@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="w-full flex flex-col justify-center">
                     <div className='portfolio-card'>
                         <img className="h-32 w-full object-cover md:hidden" src={jambogrill} alt='Jambo Grill Image' />
-                        <div className='p-10'><p className='subhead-text mb-6'> Jambo Grill Redesign</p>
+                        <div className='p-10'><p className='subhead-text mb-6'> Jambo Grill Redesign- FLUI Design Hackathon 2025</p>
 
                             <iframe
                                 className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
@@ -52,7 +52,7 @@ const Projects = () => {
                             <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=205-1094&t=igsQkfc2vjCABH7v-1&scaling=contain&content-scaling=fixed&page-id=214%3A826" target="_blank"
                                 className='link-text md:hidden'> Link to process slides </a>
 
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                            <p >For the 2025 FLUI Design Hackathon, my team redesigned the website for Jambo Grill, a local fusion restaurant blending Indian, African, and Iranian cuisine. Working directly with the client, we mapped the user journey, conducted user evaluations, and performed card sorting, SWOT, and competitive analyses. Inspired by traditional art, we crafted a site map, wireframes, and iterated through prototypes while also creating custom vector assets to enhance the design.</p>
                             <a href="https://www.figma.com/proto/6sJSRLrjxWKHyEPrTiPIrP/FLUI-Hackathon-Jambo-grill?node-id=37-487&p=f&t=g4abRLuF1rPZoUo1-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A484&starting-point-node-id=37%3A487" target="_blank"
                                 className='link-text md:hidden'> Link to prototype </a> </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
                                 className="w-full h-[400px] sm:h-[500px] border-0 rounded-lg hidden md:block mb-6"
                                 src="https://embed.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1&embed-host=share"
                                 allowFullScreen />
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero odio. Vestibulum elementum dolor nec tincidunt bibendum. Pellentesque tristique velit leo, eu viverra sapien tempor ac. In imperdiet et nisi vitae tempus. Fusce tortor nunc, luctus ac dolor ac, consequat mollis nisi. Mauris condimentum dictum augue,</p>
+                            <p >For my Human-Computer Interaction course, my team redesigned Goodreads to improve usability and social engagement. We conducted user studies on the existing design, applying UX principles, evaluation methods, and heuristics. We also conceptualized a new feature, a “Book Club” system that allows users to share their reading experiences within close friend groups.</p>
                             <a href="https://www.figma.com/proto/uqSoW43eG9OxOVltjhLCs5/Yeehaw344Team?node-id=304-3925&p=f&t=S1CHQJDroEdG7UOO-1&scaling=scale-down&content-scaling=fixed&page-id=237%3A3005&starting-point-node-id=304%3A3925&show-proto-sidebar=1" target="_blank"
                                 className='link-text md:hidden'> Link to prototype </a>
                         </div>
