@@ -19,9 +19,9 @@ const Navbar = () => {
                 <NavLink to="/projects" className={({ isActive }) => isActive? 'text-white font-silkscreen' : 'text-black font-silkscreen'}>
                     Projects
                 </NavLink>
-                {/* <NavLink to="/other" className={({ isActive }) => isActive? 'text-white font-silkscreen tracking-tighter' : ' tracking-tighter text-black font-silkscreen'}>
+                <NavLink to="/other" className={({ isActive }) => isActive? 'text-white font-silkscreen tracking-tighter' : ' tracking-tighter text-black font-silkscreen'}>
                     Other Work
-                </NavLink> */}
+                </NavLink>
                 <NavLink to="/resume" className={({ isActive }) => isActive? 'text-white font-silkscreen' : 'text-black font-silkscreen'}>
                     Resume
                 </NavLink>
@@ -41,9 +41,9 @@ const Navbar = () => {
             className="text-white md:hidden focus:outline-none"
              >
             <svg width="36" height="27.39" viewBox="0 0 46 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="20" width="33" height="4" rx="2" fill="black" fill-opacity="0.75"/>
-            <rect y="9" width="33" height="4" rx="2" fill="black" fill-opacity="0.75"/>
-            <rect y="31" width="33" height="4" rx="2" fill="black" fill-opacity="0.75"/>
+            <rect y="20" width="33" height="4" rx="2" fill="black" fillOpacity="0.75"/>
+            <rect y="9" width="33" height="4" rx="2" fill="black" fillOpacity="0.75"/>
+            <rect y="31" width="33" height="4" rx="2" fill="black" fillOpacity="0.75"/>
             <path d="M33 0L35.145 8.57054L44.2583 6L37.29 12L44.2583 18L35.145 15.4295L33 24L30.855 15.4295L21.7417 18L28.71 12L21.7417 6L30.855 8.57054L33 0Z" fill="white"/>
             </svg>
             </button>
@@ -61,9 +61,9 @@ const Navbar = () => {
                 <NavLink to="/projects" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Projects
                 </NavLink>
-                {/* <NavLink to="/other" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
+                <NavLink to="/other" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Other Work
-                </NavLink> */}
+                </NavLink>
                 <NavLink to="/resume" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'block pink-gradient-text font-silkscreen' : 'block text-black font-silkscreen'}>
                 Resume
                 </NavLink>

@@ -132,3 +132,37 @@ export const projects = [
         linktext:"Link to Github repo"
     },
 ]
+
+export const graphicDesign = [
+    {
+        title: "Solar Music Academy",
+        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
+            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        title: "Social Justic Centre UBC",
+        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
+            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        title: "PANDDA Labs",
+        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
+            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        title: "KK Lim - Advocates and Solicitors",
+        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
+            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        title: "Pride Collective UBC",
+        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
+            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]
+
