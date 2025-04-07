@@ -14,25 +14,30 @@ const other = () => {
           Graphic Design Work <span className='pink-gradient-text'>✷✶</span>
         </h1>
 
+        <h1 className='text-white font-silkscreen'>Click to expand!</h1>
+
         {/* Gallery */}
         <section className="py-4 md:py-10">
-          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4">
+          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-4">
             {graphicDesign.map((item) => (
               <li key={item.title} className="relative">
-                <button onClick={() => setSelectedItem(item)}>
-                  <img className="w-full rounded-lg hover:opacity-80 transition bg-white" src={item.images[0]} alt={item.title} />
+                <button onClick={() => setSelectedItem(item)} className="  p-4 w-full aspect-square overflow-hidden rounded-lg bg-white">
+                  <img
+                    src={item.images[0]}
+                    alt={item.title}
+                    className="w-full h-full object-contain hover:opacity-80 transition"
+                  />
                 </button>
               </li>
             ))}
           </ul>
-
         </section>
 
         {/* Popup */}
         {selectedItem && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-end md:items-center justify-center">
             <div className="bg-white rounded-lg max-w-lg w-full relative overflow-hidden">
-              <div className=" overflow-y-auto max-h-[90vh] md:max-h-[80vh] p-6">
+              <div className=" overflow-y-auto max-h-[87vh] md:max-h-[80vh] p-6">
                 <button className="absolute top-4 right-6 text-xl text-black hover:text-pink-500" onClick={() => setSelectedItem(null)}>
                   ✖
                 </button>
