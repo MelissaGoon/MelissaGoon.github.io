@@ -36,7 +36,7 @@ const other = () => {
         {/* Popup */}
         {selectedItem && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-end md:items-center justify-center">
-            <div className="bg-white rounded-lg max-w-lg w-full relative overflow-hidden">
+            <div className="bg-stone-300 rounded-lg max-w-lg w-full relative overflow-hidden">
               <div className=" overflow-y-auto max-h-[87vh] md:max-h-[80vh] p-6">
                 <button className="absolute top-4 right-6 text-xl text-black hover:text-pink-500" onClick={() => setSelectedItem(null)}>
                   ✖
@@ -46,7 +46,7 @@ const other = () => {
                 <p className="mt-2">{selectedItem.description}</p>
                 <div className="flex flex-col gap-4 mt-4">
                   {selectedItem.images.map((img, index) => (
-                    <img key={index} className="w-full h-auto rounded-lg" src={img} alt={`${selectedItem.title} ${index + 1}`} />
+                    <img key={index} className="w-full h-auto rounded-lg" src={img} alt={`${selectedItem.title} ${index + 1}`} loading='lazy'/>
                   ))}
                 </div>
               </div>

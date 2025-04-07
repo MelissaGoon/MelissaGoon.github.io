@@ -11,6 +11,7 @@ import portfolio from './3DPortfolioImg.png'
 import jambogrill from './jambo_grill.png'
 import goodreads from './goodreads.png'
 import togrow from './to_grow.png'
+import pixelart from './pixelArtCanvas.png'
 
 export {
     adventureawaits,
@@ -24,5 +25,6 @@ export {
     portfolio,
     jambogrill,
     goodreads,
-    togrow
+    togrow,
+    pixelart
 }

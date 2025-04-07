@@ -16,7 +16,7 @@ import {
     threejs,
 } from "../assets/icons";
 
-import { adventureawaits, redcommend, portfolio, togrow} from "../assets/images";
+import { adventureawaits, redcommend, portfolio, togrow, pixelart} from "../assets/images";
 import { KK_Lim, pride, sjc, pandda, sma } from "../assets/images/graphic_design";
 
 
@@ -120,6 +120,13 @@ export const projects = [
         linktext:"Link to Devpost"
     },
     {
+        title: "Pixel Art Canvas",
+        imageURL:pixelart,
+        text: "This project was initially made for the Odin Project's Etch-a-Sketch project using HTML, CSS and JavaScript. It was expanded upon to include additional features for the creation of pixel art.",
+        link:"https://melissagoon.github.io/Pixel-Art-Canvas/",
+        linktext:"Link to website"
+    },
+    {
         title: "Adventure Awaits- NWHacks 2023 Hackathon",
         imageURL:adventureawaits,
         text: "My team and I developed a full-stack web application that let users receive written directions to random interesting nearby locations, integrating the Google Maps API. I used Figma, HTML, and CSS with the Bootstrap framework for the front-end development.",
@@ -133,6 +140,7 @@ export const projects = [
         link:"https://github.com/MelissaGoon/MelissaGoon.github.io",
         linktext:"Link to Github repo"
     },
+   
 ]
 
 export const graphicDesign = [
