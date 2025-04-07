@@ -20,7 +20,7 @@ const other = () => {
             {graphicDesign.map((item) => (
               <li key={item.title} className="relative">
                 <button onClick={() => setSelectedItem(item)}>
-                  <img className="w-full h-auto rounded-xl hover:opacity-80 transition" src={item.images[0]} alt={item.title} />
+                  <img className="w-full rounded-lg hover:opacity-80 transition bg-white" src={item.images[0]} alt={item.title} />
                 </button>
               </li>
             ))}

@@ -17,6 +17,8 @@ import {
 } from "../assets/icons";
 
 import { adventureawaits, redcommend, portfolio, togrow} from "../assets/images";
+import { KK_Lim, pride, sjc, pandda, sma } from "../assets/images/graphic_design";
+
 
 export const skills = [
     {
@@ -136,33 +138,28 @@ export const projects = [
 export const graphicDesign = [
     {
         title: "Solar Music Academy",
-        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
-            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        images: sma,
+        description: "Designed custom visual assets and developed the brand identity for Solar Music Academy, including the creation of a bespoke logo tailored to the client’s vision."
     },
     {
         title: "Social Justic Centre UBC",
-        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
-            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        images: sjc,
+        description: "Refreshed the UBC Social Justice Centre’s logo with a modern, more legible design that honors the original visual identity."
     },
     {
         title: "PANDDA Labs",
-        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
-            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        images: pandda,
+        description: "Collaborated with PANDDA Labs to design a unique and professional logo, drawing inspiration from atmospheric prediction graphs and integrating panda imagery. Refined the design through multiple iterations to align with the client’s vision."
     },
     {
         title: "KK Lim - Advocates and Solicitors",
-        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
-            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        images:KK_Lim,
+        description: "Commissioned by KK Lim – Advocates and Solicitors to design a new logo that symbolizes the firm’s strength and longevity. Incorporated elements like gold and mountains, inspired by the meanings within the client’s Chinese name"
     },
     {
         title: "Pride Collective UBC",
-        images: [ "https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png",
-            "https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        images: pride,
+        description: "Created two vibrant logos for the UBC Pride Collective, reflecting its inclusive spirit, strong sense of community, and playful, welcoming energy.Created two vibrant logos for the UBC Pride Collective that reflect its diverse, welcoming, and community-focused spirit. Also designed custom social media content, including posters and event graphics."
     }
 ]
 
