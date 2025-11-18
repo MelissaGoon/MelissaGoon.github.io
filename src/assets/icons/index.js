@@ -32,6 +32,7 @@ import cplusplus from './cplusplus.svg'
 import flask from './flask.svg'
 import python from './python.svg'
 import threejs from './threejs.svg'
+import wp from './wp.svg'
 
 
 export {
@@ -68,5 +69,6 @@ export {
     cplusplus,
     flask,
     python,
-    threejs
+    threejs,
+    wp
 }

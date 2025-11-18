@@ -14,6 +14,7 @@ import {
     flask,
     python,
     threejs,
+    wp
 } from "../assets/icons";
 
 import { adventureawaits, redcommend, portfolio, togrow, pixelart, schoolsite, ghostly } from "../assets/images";
@@ -21,6 +22,11 @@ import { KK_Lim, pride, sjc, pandda, sma } from "../assets/images/graphic_design
 
 
 export const skills = [
+    {
+        imageUrl: wp,
+        name: "WordPress",
+        type: "CMS",
+    },
     {
         imageUrl: c,
         name: "C",
