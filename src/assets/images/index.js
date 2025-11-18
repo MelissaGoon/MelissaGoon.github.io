@@ -12,7 +12,8 @@ import jambogrill from './jambo_grill.png'
 import goodreads from './goodreads.png'
 import togrow from './to_grow.png'
 import pixelart from './pixelArtCanvas.png'
-
+import schoolsite from './school-site.png'
+import ghostly from './ghostlyDB.png'
 export {
     adventureawaits,
     redcommend,
@@ -26,5 +27,7 @@ export {
     jambogrill,
     goodreads,
     togrow,
-    pixelart
+    pixelart,
+    schoolsite,
+    ghostly
 }
